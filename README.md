@@ -1,1 +1,1 @@
-# RPS-multiplayer
+# RPS-against-the-CPU

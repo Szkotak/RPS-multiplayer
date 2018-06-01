@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+	
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" media="screen">
+
+</head>
+
+<body> 
+	
+	<div class="main-body">
+
+		<h1>Hardcore Rock Paper Scissors!</h1>
+
+		<p>The "rock" beats scissors, the "scissors" beat paper and the "paper" beats rock; if both players throw the same shape, the game is tied</p>
+
+		<div class="p-r-s">
+ 			
+			<div class="one_three">
+			
+				<h3>Take your pick</h3>
+			
+				<ul class="choices">
+					<li>
+						<a onclick="compare('paper', computerChoice)">
+							<img src="assets/img/paper.png" width="50px" />
+						</a>
+					</li>
+					
+					<li>
+						<a onclick="compare('rock', computerChoice)">
+							<img src="assets/img/rock.png" width="50px" />
+						</a>
+					</li>
+					
+					<li>
+						<a onclick="compare('scissors', computerChoice)">
+							<img src="assets/img/scissors.png" width="50px" />
+						</a>
+					</li>
+				</ul>
+			
+			</div> 
+			
+			<div>
+			
+					<h3>Scores</h3>
+				
+					<div class="scores">
+					
+			 			<div class="score-box">
+			 			
+				 			<div id="playerScore"></div>
+				 			
+				 			<span>Player</span>
+				 			
+			 			</div><!-- score-box -->
+			 			
+			 			<div class="score-box">
+			 			
+				 			<div id="computerScore"></div>
+				 			
+				 			<span>Computer</span>
+				 			
+			 			</div><!-- score-box -->
+		 			
+		 		</div><!-- .scores -->
+		 		
+		 	</div> <!-- two_three -->
+	 	
+	 	
+			<div>
+				
+				<h3>Choices</h3>
+			
+				<ul class="decider">
+			
+					<li>
+			 			
+			 				<span>Player:</span>
+			 				<span id="playerChoice">Pick one to get started!</span><!-- .playerChoice -->
+				 			
+			 		</li>
+					
+			 		<li>
+			 			
+			 				<span>Computer:</span>
+			 				<span id="computerChoice">You first!</span><!-- .computerChoice -->
+				 						 			
+			 		</li>
+			 		
+		 		
+		 		</ul>
+	 			
+	 		</div>
+ 			
+ 	</div><!-- .row -->	
+
+	</div><!-- .main-body -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>
